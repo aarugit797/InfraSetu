@@ -1,0 +1,26 @@
+{
+  "overview": "InfraSetu is a smart construction management platform for government projects. It supports 8 roles: Government Authority, Project Manager, Site Engineer, Contractor, Worker, Auditor, Community, and Public. The Public interface lets anyone browse nearby construction sites on a map, view what's been promised, and raise complaints with photos if they see discrepancies.",
+  "features": [
+    "Public map showing nearby construction sites using geolocation",
+    "Construction project details with promised milestones, budget, and timeline",
+    "Public complaint filing with photo upload",
+    "Flag indicators on projects with unresolved complaints",
+    "Government Authority dashboard with Public Complaints section",
+    "Authority can resolve/unflag public complaints",
+    "8 role-based interfaces for all stakeholders",
+    "Animated InfraSetu landing page",
+    "Role-based login for all internal roles"
+  ],
+  "category": "productivity",
+  "tags": [
+    "construction",
+    "government",
+    "project-management",
+    "public",
+    "complaints",
+    "map",
+    "geolocation",
+    "infrasetu"
+  ],
+  "last_updated": "2026-04-17T16:11:40.912Z"
+}
