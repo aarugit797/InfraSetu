@@ -139,7 +139,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
 
     // 3. Any email / any password → pick role from DEMO_USERS based on email pattern or use first user
-    const guessedRole: UserRole = email.includes("gov")
+    const guessedRole: UserRole = email.includes("gov") || email.includes("authority") || email.includes("admin")
       ? "governmentAuthority"
       : email.includes("manager") || email.includes("pm")
         ? "projectManager"

@@ -133,6 +133,7 @@ export default function LandingPage() {
   const lastDelay = Math.max(...bricks.map((b) => b.delay));
   const TOTAL_END_MS = (lastDelay + 0.6) * 1000 + 120;
 
+  // User now explicitly clicks to enter the portal
   useEffect(() => {
     const t1 = setTimeout(() => setPhase("glow"), TOTAL_END_MS);
     const t2 = setTimeout(() => setPhase("tagline"), TOTAL_END_MS + 550);

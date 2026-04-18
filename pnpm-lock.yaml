@@ -128,6 +128,9 @@ importers:
       embla-carousel-react:
         specifier: ^8.2.1
         version: 8.6.0(react@19.1.5)
+      framer-motion:
+        specifier: ^12.38.0
+        version: 12.38.0(react-dom@19.1.5(react@19.1.5))(react@19.1.5)
       input-otp:
         specifier: ^1.4.1
         version: 1.4.2(react-dom@19.1.5(react@19.1.5))(react@19.1.5)
